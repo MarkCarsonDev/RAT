@@ -1,0 +1,5 @@
+.navbar{
+    background: linear-gradient(95deg, white, black,);
+    height: 100px;
+    display: grid;
+}
