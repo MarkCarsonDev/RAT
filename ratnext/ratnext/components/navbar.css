@@ -3,3 +3,9 @@
     height: 100px;
     display: grid;
 }
+
+.navbar-container{
+
+    display: none;
+
+}

@@ -8,7 +8,7 @@ export default function Navbar(){
                     src="/images/ratlogo"
                     width={500}
                     height={500}
-                    alt="Picture of the author"
+                    alt="RAT logo"
                     />
             </div>
             <div className="nav-menu">

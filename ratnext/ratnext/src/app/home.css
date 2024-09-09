@@ -1,0 +1,7 @@
+.navbar{
+    background: linear-gradient(45deg, red, blue);
+    height: 100px;
+    width: 100%;
+    display: grid;
+    z-index: 999;
+}
