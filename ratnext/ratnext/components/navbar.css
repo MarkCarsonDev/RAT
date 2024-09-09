@@ -1,11 +1,64 @@
-.navbar{
-    background: linear-gradient(95deg, white, black,);
-    height: 100px;
+.navbar {
+    background: rgb(160, 159, 159);
+    box-shadow: rgb(109, 109, 109) 0px 8px 6px;
+    height: 80px;
+    width: 100%;
     display: grid;
+    z-index: 999;
+    position: sticky;
+    top: 0px;
 }
 
 .navbar-container{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
-    display: none;
+.name-logo{
+    font: 3rem "Impact";
+    color: rgb(204, 228, 228);
+    position: absolute;
+    left: 2%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo{
+    background-image: "/ratlogo.png";
+    height: 100px;
+    width: 100px;
+}
+
+.nav-menu{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 3%;
+    height: 70px;
+    width: 500px;
+    font: 1.2rem "Impact";
+  
+}
+
+.nav-links{
+    display: flex;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 30px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5%;
 
 }
+
+.nav-item{
+    color: rgb(204, 228, 228);
+    text-decoration: none;
+}
+
