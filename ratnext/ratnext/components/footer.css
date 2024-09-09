@@ -1,0 +1,26 @@
+.footer{
+    background: rgb(160, 159, 159);
+    height: 200px;
+    width: 100%;
+
+}
+
+.footer-container{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-socials{
+    position: absolute;
+    right: 5%;
+}
+
+.socials{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 60px
+
+}

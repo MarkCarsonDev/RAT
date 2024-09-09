@@ -8,12 +8,12 @@
 
 .body-image{
     position: absolute;
-    right: 15%;
+    right: 5%;
 }
 
 .text{
     position: absolute;
-    left: 10%;
+    left: 5%;
     text-align: center;
     width: 800px;
 }
