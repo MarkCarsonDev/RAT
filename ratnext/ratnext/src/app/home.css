@@ -1,7 +1,33 @@
-.navbar{
-    background: linear-gradient(45deg, red, blue);
-    height: 100px;
+.body{
+    background: #CCE4E4;
+    height: 100vh;
     width: 100%;
-    display: grid;
-    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.body-image{
+    position: absolute;
+    right: 15%;
+}
+
+.text{
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    width: 800px;
+}
+
+.rat-race{
+    font: 3rem "Arial black";
+}
+
+.text{
+    font: 1.8rem "Arial";
+    
+}
+
+.get-started-today{
+    color: black;
+    font: 1.5rem "Arial black";
 }
