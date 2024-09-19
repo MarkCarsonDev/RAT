@@ -1,33 +1,6 @@
-.body{
-    background: #CCE4E4;
-    height: 100vh;
+.sec1-container{
+    display: grid;
+    background-color: #F6F8FF;
     width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.body-image{
-    position: absolute;
-    right: 5%;
-}
-
-.text{
-    position: absolute;
-    left: 5%;
-    text-align: center;
-    width: 800px;
-}
-
-.rat-race{
-    font: 3rem "Arial black";
-}
-
-.text{
-    font: 1.8rem "Arial";
-    
-}
-
-.get-started-today{
-    color: black;
-    font: 1.5rem "Arial black";
+    height: 1200px;
 }

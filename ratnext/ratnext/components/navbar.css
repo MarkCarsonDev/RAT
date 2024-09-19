@@ -1,5 +1,5 @@
 .navbar {
-    background: rgb(160, 159, 159);
+    background: rgb(255, 255, 255);
     box-shadow: rgb(109, 109, 109) 0px 8px 6px;
     height: 80px;
     width: 100%;
@@ -18,8 +18,8 @@
 }
 
 .name-logo{
-    font: 3rem "Impact";
-    color: rgb(204, 228, 228);
+    font: 3rem "Droid Sans";
+    color: #3C435C;
     position: absolute;
     left: 2%;
     display: flex;
@@ -40,7 +40,7 @@
     right: 3%;
     height: 70px;
     width: 500px;
-    font: 1.2rem "Impact";
+    font: 1.2rem "Droid Sans";
   
 }
 
@@ -58,7 +58,7 @@
 }
 
 .nav-item{
-    color: rgb(204, 228, 228);
+    color: #3C435C;
     text-decoration: none;
 }
 

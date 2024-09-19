@@ -15,14 +15,14 @@ export default function Navbar(){
         <div className="navbar-container">
             <Link href='/' className="name-logo">
                 
-                RAT<div className="logo">
+                <div className="logo">
                     <Image
                         src="/ratlogo.png"
                         height={100}
                         width={100}
                         alt="RAT logo"
                         />
-                </div>
+                </div>JobBuddy
             </Link>
             <div className="nav-menu">
                 <ul className="nav-links">
@@ -33,7 +33,7 @@ export default function Navbar(){
                     </li>
 
                     <li className="nav-list">
-                        <Link href="/get-started" className="nav-item">
+                        <Link href="/threads" className="nav-item">
                             <Button text="Get Started" onClick={handleClick} />
                         </Link>
                     </li>
