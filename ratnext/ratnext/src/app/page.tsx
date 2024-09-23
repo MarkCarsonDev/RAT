@@ -13,9 +13,33 @@ function Home(){
             <Navbar />
             <div className="sec1-container">
                 <div className="sec1-box">
-                    
+                    <div className="sec1-logo-box">
+                        <h1 className="sec1-logo-text">
+                            Job hunting is hard,
+                            we’re here to help.
+                        </h1>
+
+                    </div>
+
                 </div>
             </div>
+
+            <div className="sec2-container">
+                <div className="sec2-box">
+                    
+
+                </div>
+
+            </div>
+
+            <div className="sec3-container">
+
+            </div>
+
+            <div className="sec4-container">
+
+            </div>
+
             <Footer />
         </div>
         

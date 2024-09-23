@@ -22,7 +22,7 @@ export default function Navbar(){
                         width={100}
                         alt="RAT logo"
                         />
-                </div>JobBuddy
+                </div>SqueakPeek
             </Link>
             <div className="nav-menu">
                 <ul className="nav-links">

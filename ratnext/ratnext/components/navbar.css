@@ -1,12 +1,12 @@
 .navbar {
     background: rgb(255, 255, 255);
-    box-shadow: rgb(109, 109, 109) 0px 8px 6px;
     height: 80px;
     width: 100%;
     display: grid;
     z-index: 999;
     position: sticky;
     top: 0px;
+    border-bottom: 5px solid #E0E4F2;
 }
 
 .navbar-container{
