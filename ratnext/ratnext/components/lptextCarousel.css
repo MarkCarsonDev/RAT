@@ -1,3 +1,10 @@
+.caro{
+    height: 50px;
+    width: 600px;
+    justify-content: center;
+    align-self: center;
+    outline: solid red;
+}
 .fade-enter {
     opacity: 0;
     transform: translateY(-100%);
@@ -20,36 +27,4 @@
     transition: opacity 500ms, transform 500ms;
   }
 
-
-
-  .fade1-enter {
-    position: absolute;
-    bottom: 0%;
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  
-  .fade1-enter-active {
-    position: absolute;
-    bottom: 0%;
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 500ms, transform 500ms;
-  }
-  
-  .fade1-exit {
-    position: absolute;
-    bottom: 0%;
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .fade1-exit-active {
-    position: absolute;
-    bottom: 0%;
-    opacity: 0;
-    transform: translateY(100%);
-    transition: opacity 500ms, transform 500ms;
-  }
-  
   

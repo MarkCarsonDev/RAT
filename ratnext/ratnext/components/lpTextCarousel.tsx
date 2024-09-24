@@ -20,13 +20,13 @@ const TextCarousel = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === textItems.length - 1 ? 0 : prevIndex + 1
       );
-    }, 1000); // Change text every 3 seconds
+    }, 3000); // Change text every 3 seconds
 
     return () => clearInterval(intervalId); // Clean up on component unmount
   }, []);
 
   return (
-    <div>
+    <div className='caro'>
       <TransitionGroup>
         <CSSTransition
           key={currentIndex}
@@ -37,28 +37,6 @@ const TextCarousel = () => {
           <Typography
             variant="h4"
             align="justify"
-            sx={{
-              position: 'absolute',
-            }}
-          >
-            {textItems[currentIndex]}
-          </Typography>
-        </CSSTransition>
-      </TransitionGroup>
-
-      <TransitionGroup>
-        <CSSTransition
-          key={currentIndex}
-          timeout={500}
-          classNames="fade1"
-        >
-            
-          <Typography
-            variant="h4"
-            align="justify"
-            sx={{
-              position: 'absolute',
-            }}
           >
             {textItems[currentIndex]}
           </Typography>

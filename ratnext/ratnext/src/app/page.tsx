@@ -14,9 +14,7 @@ function Home(){
             <Navbar />
             <div className="sec1-container">
                 <div className="sec1-box">
-                    <div className="sec1-carousel">
                         <TextCarousel />
-                    </div>
                     <div className="sec1-logo-box">
                         <Image className="sec1-main-logo"
                             src="/rat_1.png"
