@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar";
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "../../components/footer";
+import TextCarousel from "../../components/lpTextCarousel";
 
 
 
@@ -13,7 +14,16 @@ function Home(){
             <Navbar />
             <div className="sec1-container">
                 <div className="sec1-box">
+                    <div className="sec1-carousel">
+                        <TextCarousel />
+                    </div>
                     <div className="sec1-logo-box">
+                        <Image className="sec1-main-logo"
+                            src="/rat_1.png"
+                            width={300}
+                            height={300}
+                            alt="SqueakPeek Logo"
+                        />
                         <h1 className="sec1-logo-text">
                             Job hunting is hard,
                             we’re here to help.

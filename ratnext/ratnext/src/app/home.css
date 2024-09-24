@@ -9,8 +9,8 @@
 
 .sec1-box{
     display: grid;
-    width: 95%;
-    height: 800px;
+    width: 90%;
+    height: 750px;
     background-color: white;
     border: #E0E4F2;
     border: 10px solid #E0E4F2;
@@ -20,15 +20,32 @@
 }
 
 .sec1-logo-box{
+    display: grid;
     width: 400px;
-    height: 200px;
+    height: 500px;
     position: absolute;
-    right: 15%;
+    right: 17%;
+   
+}
+
+.sec1-carousel{
+    position: absolute;
+    left: 17%;
+    width: 600px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    outline: solid red;
+}
+
+.sec1-main-logo{
+    justify-self: center;
 }
 
 .sec1-logo-text{
     text-align: center;
     font: 2.5rem "Inter";
+    
 }
 
 .sec2-container{
