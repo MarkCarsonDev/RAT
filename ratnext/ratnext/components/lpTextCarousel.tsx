@@ -26,7 +26,7 @@ const TextCarousel = () => {
   }, []);
 
   return (
-    <div className='caro'>
+    <div>
       <TransitionGroup>
         <CSSTransition
           key={currentIndex}
