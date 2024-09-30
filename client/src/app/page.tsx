@@ -1,5 +1,5 @@
 "use client";
-import { LandingNavbar } from "@/ui/Landingnavbar";
+import { LandingNavbar } from "@/ui/LandingNavbar";
 import "@/ui/styling/LandingPage.css";
 import Image from "next/image";
 import { TextCarousel } from "@/ui/TextCarousel";
