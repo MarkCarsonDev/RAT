@@ -7,7 +7,6 @@ export function LandingNavbar() {
   return (
     /* Main Navigation bar*/
     <nav
-      className="navbar"
       style={{
         background: "rgb(255, 255, 255)",
         height: "80px",
@@ -21,7 +20,6 @@ export function LandingNavbar() {
     >
       {/* NavBar Container For Elements */}
       <div
-        className="navbar-container"
         style={{
           height: "80px",
           width: "100%",
@@ -33,7 +31,6 @@ export function LandingNavbar() {
         {/* Title and Logo  Element*/}
         <Link
           href="/"
-          className="name-logo"
           style={{
             display: "flex",
             alignItems: "center",
@@ -43,7 +40,6 @@ export function LandingNavbar() {
           }}
         >
           <Image
-            className="logo-image"
             src="/LandingPage-images/rat_1.png"
             height={100}
             width={100}
@@ -61,7 +57,6 @@ export function LandingNavbar() {
 
         {/* Navigation Menu Element */}
         <div
-          className="nav-menu"
           style={{
             alignItems: "center",
             justifyContent: "center",
@@ -73,7 +68,6 @@ export function LandingNavbar() {
         >
           {/* Navigation Links */}
           <ul
-            className="nav-links"
             style={{
               display: "flex",
               gridTemplateColumns: "repeat(2, auto)",
@@ -108,7 +102,6 @@ export function LandingNavbar() {
 
             <li>
               <Button
-                className="nav-item"
                 variant="contained"
                 href="/signup"
                 sx={{
